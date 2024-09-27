@@ -41,12 +41,12 @@ def main():
             if line:
                 try:
                     # Read ADC value from serial
-                    adc_value = int(line)
-                    temperature = calculate_temperature(adc_value)
+                    leitura = int(line)
+                    temperature = calculate_temperature(leitura)
                     if temperature is not None:
                         # Write temperature to file
                         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                        file.write(f"{current_time},{temperature}\n")
+                        file.write(f"{current_time},{leitura},{temperature},\n")
                         file.flush()  # Ensure data is written to file
                         print(f"Temperature: {temperature:.5f} °C")
                     else:
