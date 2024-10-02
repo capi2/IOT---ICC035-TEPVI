@@ -16,10 +16,8 @@ Desenvolver uma aplicação prática em IoT para a medição contínua da temper
 
 ### Relatório.pdf: Arquivo com o relatório completo do projeto.
 
-## Circuito
+### requirements.txt: Arquivo com as bibliotecas python para executar o código, basta executar:
 
-*Adicionar imagem...*
-
-## Monitoramento
-
-*Adicionar imagens do monitoramento, imagens de onde o sensor foi colocado, imagens de como ficou posicionado cada componente do experimento no monitoramento e imagens do ambiente...*
+```bash
+pip install -r requirements.txt
+```
