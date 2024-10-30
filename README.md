@@ -29,4 +29,4 @@ pip install -r requirements.txt
 ```
 ## Gráficos de temperatura gerados:
 
-[![Grafico temperatura 1](/Imagens/Gráfico Temperatura.png "Graf Temp")](https://github.com/capi2/ICC035_TEPVI_IOT/blob/main/Imagens/Gr%C3%A1fico%20Temperatura.png)
+![Gráfico Temperatura](https://github.com/user-attachments/assets/b50f08f7-9039-4051-8235-cf053feb173e)
