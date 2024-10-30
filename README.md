@@ -4,20 +4,31 @@ Este repositório refere-se aos códigos relacionados ao pequeno projeto realiza
 
 ## Objetivo do Projeto
 
-Desenvolver uma aplicação prática em IoT para a medição contínua da temperatura de um corpo hídrico, utilizando um sensor de temperatura NTC 10K MF58 conectado a um Arduino Uno, aplicando os conceitos básicos de sensores, coleta de dados e monitoramento.
+Desenvolver uma aplicação prática em IoT para a medição contínua da temperatura de um corpo hídrico, utilizando um sensor de temperatura NTC 10K MF58 conectado a um Arduino Uno, aplicando os conceitos básicos de sensores, coleta de dados e monitoramento. A temperatura é medida com o sensor e enviada utilizando um LoRa ESP32 v3 para outro LoRa receber os pacotes via wireless.
 
 ## Código
 
-### main.py: Arquivo responsável por ler da entrada Serial os dados passados pelo Arduino Uno e salvar no arquivo .csv
+### Imagens:
 
-### arduino.cpp: Arquivo responsável pelo código que estará sendo executando pelo Arduino Uno durante o monitoramento, ele lê uma entrada analógica e manda a leitura para porta Serial.
+Gráficos das temperaturas lidas. Valores de temperatura são lidos em um intervalo de 24 horas a cada um segundo.
 
-### analiseDados.py: Arquivo responsável pela plotagem de gráficos e analise dos dados obtidos
+### Registros:
 
-### Relatório.pdf: Arquivo com o relatório completo do projeto.
+Arquivos .csv das temperaturas lidas usando os sensores.
+
+### relatorios:
+
+Relatórios da disciplina como forma de obtenção de nota parcial na mesma.
+
+### src:
+
+Códigos utilizados para fazer a programação do Arduino, LoRa e etc.
 
 ### requirements.txt: Arquivo com as bibliotecas python para executar o código, basta executar:
 
 ```bash
 pip install -r requirements.txt
 ```
+## Gráficos de temperatura gerados:
+
+![Grafico temperatura 1](/Imagens/Gráfico Temperatura.png "Graf Temp")
