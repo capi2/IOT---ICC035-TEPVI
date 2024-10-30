@@ -6,8 +6,6 @@ Este repositório refere-se aos códigos relacionados ao pequeno projeto realiza
 
 Desenvolver uma aplicação prática em IoT para a medição contínua da temperatura de um corpo hídrico, utilizando um sensor de temperatura NTC 10K MF58 conectado a um Arduino Uno, aplicando os conceitos básicos de sensores, coleta de dados e monitoramento. A temperatura é medida com o sensor e enviada utilizando um LoRa ESP32 v3 para outro LoRa receber os pacotes via wireless.
 
-## Código
-
 ### Imagens:
 
 Gráficos das temperaturas lidas. Valores de temperatura são lidos em um intervalo de 24 horas a cada um segundo.
@@ -31,4 +29,4 @@ pip install -r requirements.txt
 ```
 ## Gráficos de temperatura gerados:
 
-![Grafico temperatura 1](/Imagens/Gráfico Temperatura.png "Graf Temp")
+[![Grafico temperatura 1](/Imagens/Gráfico Temperatura.png "Graf Temp")](https://github.com/capi2/ICC035_TEPVI_IOT/blob/main/Imagens/Gr%C3%A1fico%20Temperatura.png)
